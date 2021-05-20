@@ -1,0 +1,76 @@
+body{
+    background-color: #024f8f !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    /* font-family: sans-serif; */
+}
+.identifier{
+    /* text-align: center; */
+  
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: Poppins; 
+    color:#00345fbd ;
+}
+.tenez_vous{
+    /* position:absolute; */
+    left: 20px;
+    margin-top: -12px;
+    font-size: 12px;
+    line-height: 18px;
+}
+samp{
+    color: brown;
+}
+form{
+    width: 300px;
+    border: 2px solide #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0.55,0.55);
+}
+.mot_de_passe_oublier{
+    text-align: right;
+    font-size: 12px;
+}
+input{
+    display: block;
+    border: 4px solide #00345f;
+    opacity: 50%;
+    left: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+    background-color: rgba(0, 53, 95,0.1);
+    
+}
+.form .btn btn-primary{
+    display: block;
+    left: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+    background-color: #219DFF;
+    color: #fff;
+    font-size: 13px;
+    font: bold;
+    text-transform: uppercase;
+    
+}
+.btn-connecter:hover{
+    opacity: .7;
+}
+.Nv_inscrire{
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    color: #fff;
+}
